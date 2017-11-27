@@ -14,7 +14,7 @@ module.exports = merge(common, {
     },
     devtool: 'cheap-module-source-map',
     plugins: [
-        new CleanWebpackPlugin(['dist'], { root: process.cwd() }),
+        new CleanWebpackPlugin(['docs'], { root: process.cwd() }),
         new webpack.optimize.ModuleConcatenationPlugin(),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
