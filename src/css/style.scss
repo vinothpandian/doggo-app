@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  height: 100%;
+}
+
+#main-header{
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+}
