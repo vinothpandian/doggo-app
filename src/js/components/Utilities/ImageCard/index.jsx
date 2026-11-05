@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-const defaultDog = require("../../../../assets/default.jpg");
-const dogError = require("../../../../assets/dog_error.jpg");
+import defaultDog from "../../../../assets/default.jpg";
+import dogError from "../../../../assets/dog_error.jpg";
 
 class ImageCard extends Component {
     render() {
